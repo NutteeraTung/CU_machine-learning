@@ -1,0 +1,31 @@
+# Module 2
+Data types in Python
+- Tuple
+    > specific
+    > การเพิ่ม
+    > การลด
+    
+- List
+    > การเพิ่ม
+        - insert
+        - extend
+        - append
+    > การลด
+        - del
+        - remove
+    > clone
+
+- Set
+    > operation
+        - intersection
+        - difference
+        - union
+        - superset
+        - symmetric difference รูปภาพเพิ่มเติมใน ppt
+        - proper superset
+        - proper subset
+
+- Dictionary
+
+
+[url]https://www.geeksforgeeks.org/ml-cost-function-in-logistic-regression/
