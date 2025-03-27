@@ -1,0 +1,13 @@
+How to use markdown
+markdown can write by HTML language
+# Heading
+## Heading
+    highlight text
+``` highlight text```
+<blockquote>This is good</blockquote>
+>blockquote
+<b>bold text</b>
+<i>itallic</i>
+<hr> #this is line
+<br> #space
+#insert pic using markdown

@@ -1,0 +1,24 @@
+[url]
+
+"Linear Regression one variable"
+ทำ scatter plot เพื่อ visualize data ดูการเกาะกลุ่มกันของข้อมูลระหว่าง X กับ y
+ข้อ 2.2 ใช้สูตร gredient descent ดูสูตรในโค้ดได้เลย
+cost function เป็นเหมือนกับ square error ซึ่งเราต้องการ minimize มันเพราะจะได้กราฟ linear regression ที่ fit กับข้อมูลมากที่สุด โดยการรันค่าของ θ
+            ลักษณะกราฟเป็น surface 3 มิติ (2 มิติคือเส้น contour) ค่าที่เหมาะสมที่สุุดคือจะอยู่ตรงกลางของกราฟ
+็Hypothesis คือตัวโมเดล regression เอาไว้สำหรับทำนายค่าที่จะเกิดขึ้นเหมือนกับสมการ y = ax + b
+            การทำเริ่มจาก input variable\feature x --> hypothesis (h) --> estimate value y
+            ต้องทำให้ใกล้กับข้อมูล (ลากผ่านข้อมูลมากที่สุด)
+            accuracy วัดด้วย cost function
+
+Q: ใช้ gradient descent ไปเพื่ออะไร?
+เพื่อหาค่าของ cost function ที่ต่ำที่สุดโดยการหา direction ที่เหมาะสมที่จะนำไปสู่ global minimal โดยจะไปถึงได้ต้องมี Learning rate (α), 
+iteration ของการรันที่เหมาะสม เพื่อให้เข้าใกล้ global optimal มากที่สุด 
+ค่า α น้อยยิ่งก้าวช้า ค่า α มากจะ script direction ที่เหมาะสมแล้วหลงทางจนหาทางที่ดีที่สุดไม่เจอ โมเดลแย่
+ปกติแล้ว ถ้าไม่ simultaneously θ ทิศทางที่เหมาะสมสามารถนำไปสู่ local optimal ได้
+ในโค้ดมีการใช้ simultaneously θ ซึ่งทำให้ค่า global optimal มีค่าเดียว รูปร่างเป็น convex function (นึกภาพถ้วย)
+
+"Linear Regression with multi variables"
+ทำ Mean Normalization นั่นคือฟังก์ชัน def  featureNormalize(X): เพื่อทำให้ทุก feature(X) มี scale เดียวกัน เพิ่มความไวของ gradient descent
+หา gradient descent โดยหารคำนวณ cost function
+หา Learning rate(α) ที่เหมาะสม โดยพล็อตระหว่าง cost function J(θ) กับ iteration ถ้าดี = เวลาผ่านไป cost function ต้องลดลงดูได้จากกราฟ
+อีกวิธีนึงคือการใช้ Normal equation ไม่ต้องมี feature scaling/การลู่เข้าของกราฟเหมือนกับ gradient descent

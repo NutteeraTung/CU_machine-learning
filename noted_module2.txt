@@ -1,0 +1,43 @@
+# Module 2
+Data types in Python
+- Tuple
+    > tuple1 = (dff, fsdf, fds)
+    ไม่สามารถเปลี่ยนค่าได้!! (immutable)
+    สามารถเรียกด้วย index ได้
+    สามารถ concatenate ได้ เอา tuple + tuple
+
+    
+- List
+    > list = [z,ew,gfd]
+    > สามารถเปลี่ยนแปลงค่าได้ mutable
+    สามารถเรียกด้วย index ได้
+    > การเพิ่ม
+        - insert เพิ่มลิสต์โดยที่ต้องมีตำแหน่งของ index ด้วย list.insert(index,'words')
+        - extend เพิ่มลิสต์ได้หลายตัว
+        - append เพิ่ม 1 ลิสต์เข้าไปในลิสต์เดิม
+    > การลด
+        - del del(list[index])
+        - remove ระบุตัวที่จะลบได้เลย
+    > split แยกคำออกมา
+    > clone
+
+- Set
+    > set = {a,b,c}
+    แปลงเป็น set ได้ a = set(a)
+    > operation
+        - add (to set)
+        - remove (from set)
+        - in (check in set -> T or F)
+        - intersection -> set1 & set2 or set1.intersection(sec2)
+        - difference
+        - union
+        - superset
+        - symmetric difference รูปภาพเพิ่มเติมใน ppt
+        - proper superset
+        - proper subset
+
+- Dictionary
+
+
+
+

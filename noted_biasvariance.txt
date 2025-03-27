@@ -1,0 +1,18 @@
+ถ้ามี error เกิดขึ้นเยอะตอนที่ prediction ต้องทำยังไง!!?
+machine learning diagnosis ในการดูข้างในของเราว่ามีอะไรเดิดขึ้นบ้าง เกิดจากอะไร
+Evaluating hypothesis
+    -> Training 70%
+    -> Cross validation (validation) 20%
+    -> Testing 10%
+การแบ่งเป็นกี่ส่วนๆ ตามใจปรารถนา หรือ 70% Training, 30% Testing
+สูตรดู p.19
+learning algorithm running worse than old one
+Bias(underfit) J train -> high
+Variance(overfit) J train => low
+regularized can help overfitting ทำที่ trainning set ที่ cost function เท่านั้น
+1.ทำ regularization minJ(θ) @Training set
+2.หาโมเดลที่ให้ค่า "J cv (lowest cost validation error) ที่ต่ำที่สุด" แล้วเลือกโมเดลนั้นไปใช้เพราะตัวแปร λ fit กับ cv set
+learning curve เป็นตัวบ่งบอกว่าโมเดลนั้นมี performance ที่ดีมั้ย
+ถ้า model underfitting เก็บข้อมูลเยอะไม่ได้ช่วยอะไร
+ถ้า model overfitting เก็บข้อมูลเยอะจะช่วยให้โมเดลมีประสิทธิภาพดีขึ้น
+p.42-43 บอกว่าเราต้องทำอะไรเวลาเจอ high bias, high variance

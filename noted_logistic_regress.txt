@@ -1,0 +1,5 @@
+[url]https://www.geeksforgeeks.org/ml-cost-function-in-logistic-regression/
+[url]https://github.com/tofighi/ml-cheatsheet/blob/master/docs/logistic_regression.rst
+
+underfit => high bias
+overfit => high variance

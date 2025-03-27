@@ -1,0 +1,12 @@
+Module 1 python basic มากๆ55555
+-   variable types -> str int float bool พิมพ์เช็คด้วย type()
+    สามารถ convert type ได้ int() , float(), bool(), str()
+    แต่ convert จาก ข้อความ str ไป int ไม่ได้ 
+-   Expression and Operation
+-   indexing, slicing, stride
+-   Concatenate str (รวมสตริง)
+-   Escape format
+    \n ขึ้นบรรทัดใหม่
+    \t tab
+    r มองทุกอันเป็น str
+-   String operation
